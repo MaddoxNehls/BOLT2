@@ -9,6 +9,26 @@ export const metadata: Metadata = {
   title: 'The World\'s Largest Hackathon | Ignite the Code',
   description: 'Join the World\'s Largest Hackathon with $1M+ in prizes. Where Ideas Ignite the Future.',
   metadataBase: new URL('http://hackathon.dev'),
+  openGraph: {
+    type: 'website',
+    title: 'The World\'s Largest Hackathon | Ignite the Code',
+    description: 'Join the World\'s Largest Hackathon with $1M+ in prizes. Where Ideas Ignite the Future.',
+    siteName: 'BOLT Hackathon',
+    images: [
+      {
+        url: '/graph.png',
+        width: 1200,
+        height: 630,
+        alt: 'BOLT Hackathon Preview Image'
+      }
+    ]
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'The World\'s Largest Hackathon | Ignite the Code',
+    description: 'Join the World\'s Largest Hackathon with $1M+ in prizes. Where Ideas Ignite the Future.',
+    images: ['/graph.png']
+  },
   icons: {
     icon: [
       { url: '/favicon/favicon-96x96.png', sizes: '96x96', type: 'image/png' },
