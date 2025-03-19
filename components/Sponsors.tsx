@@ -18,8 +18,8 @@ const Sponsors = () => {
     { id: "1", name: "Supabase", logo: "/logos/supabase.jpg" },
     { id: "2", name: "Netlify", logo: "/logos/netlify.png" },
     { id: "3", name: "Cloudflare", logo: "/logos/cloudflare.jpg" },
-    { id: "4", name: "Sentry", logo: "/logos/sentry.png" },
-    { id: "5", name: "Loops", logo: "/logos/loops.jpg" },
+    { id: "4", name: "Sentry", logo: "/logos/Sentry.png" },
+    { id: "5", name: "Loops", logo: "/logos/Loops.jpg" },
     { id: "6", name: "Algorand Foundation", logo: "/logos/algorand.jpg" },
     { id: "7", name: "Coming Soon" },
     { id: "8", name: "Coming Soon" }
